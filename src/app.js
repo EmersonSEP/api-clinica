@@ -24,7 +24,7 @@ app.use(express.urlencoded({ extended: true }));
 db.hasConnection();
 
 //Tcp Connection Port:
-
+dotenv.config();
 // const port = 4000;
 const port = process.env.PORT || 4000;
 
